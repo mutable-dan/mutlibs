@@ -7,8 +7,8 @@ INCLUDE_DIR = -I.
 LINK_LIBS := -lpthread -lboost_system -lboost_filesystem 
 
 LIB = libmut.so
-SOURCE = logger.cpp config.cpp 
-HEADER = logger.h config.h 
+SOURCE = logger.cpp config.cpp util.cpp
+HEADER = logger.h config.h util.h
 OBJS = $(SOURCE:.cpp=.o) 
 DEPS = $(SOURCE:.cpp=.d) 
 
