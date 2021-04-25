@@ -1,4 +1,4 @@
-CPP=g++-8
+CPP=g++
 
 LIB_INSTALL_DIR = /usr/local/lib/
 INCLUDE_INSTALL = /usr/local/include/mutlib
